@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+.header {
+  display: flex;
+  background-image: url("../img/top-banner.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-bottom: 250px;
+}
+
+.header .header__text-box {
+  width: 50%;
+  margin: 2% 0 0 7%;
+}
+
+.headig_main {
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.heading_sub {
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.name_color {
+  color: rgb(255, 165, 0);
+}
+
+.heading_samll {
+  color: rgb(0, 0, 0);
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: rgb(105, 105, 105);
+  width: 500px;
+}
+
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 40px;
+  background: linear-gradient(45deg, rgb(255, 160, 122), rgb(255, 99, 71));
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 18px;
+}
+
+.header .header_profile {
+  width: 50%;
+}
+
+.header_profile img {
+  width: 80%;
+}
+
+.dreambig {
+  display: flex;
+  background-image: url("../img/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 500px;
+  margin-bottom: 250px;
+}
+
+.dreambig .dream_big-profile .dreambig__text-box {
+  width: 50%;
+}
+
+.dream_big-profile {
+  margin-left: 6%;
+}
+
+.dream_big-profile img {
+  width: 90%;
+}
+
+.dreambig__text-box {
+  margin-left: 10%;
+}
+
+.exp {
+  background-image: url("../img/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 500px;
+  margin-bottom: 100px;
+}
+.exp .exp_titile {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+.card_container {
+  display: flex;
+}
+.card_baby {
+  width: 40%;
+  text-align: left;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 3% 4%;
+  padding: 30px 0 40px 40px;
+  border-left: 10px solid;
+  border-image: linear-gradient(to bottom, rgb(0, 0, 138), rgb(153, 50, 204)) 1;
+}
+
+.full-stack {
+  border-left: 10px solid;
+  border-image: linear-gradient(to bottom, #f12711, #f5af19) 1;
+}
+.exp_samll {
+  color: rgb(255, 165, 0);
+}
+
+.fotter p {
+  text-align: center;
+  color: rgb(121, 121, 121);
+  padding: 40px;
+}
